@@ -467,7 +467,6 @@
 @media screen and (max-width: 480px) {
     section {
         padding-top: 72px;
-        padding-bottom: 26px;
     }
     .content {
         max-width: calc(100% - 20px);
@@ -549,7 +548,7 @@
 
     /* Introduce */
     .introduce {
-        overflow: unset;
+        padding-bottom: 92px;
     }
     .introduce-top .imgs {
         margin-top: -104px;
@@ -580,7 +579,8 @@
 
     /* Customer */
     .customer {
-        margin-top: 20px;
+        margin-top: 0;
+        padding-top: 0;
     }
     .customer-left .text:nth-child(1) {
         padding: 27px 32px 18px 27px;
