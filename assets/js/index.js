@@ -101,6 +101,7 @@ function counterUp() {
 window.addEventListener("scroll", counterUp);
 
 // Letter-by-letter text appearance animation
+
 const text = $("[data-text]").text();
 
 var length = text.length;
@@ -117,7 +118,7 @@ function typeWriter() {
         if (character == length) {
             clearTimeout(timeOut);
         }
-    }, 150);
+    }, 350);
 }
 
 let run = true;
@@ -126,7 +127,7 @@ function letterRun() {
     if (run) {
         if (
             textElement.getBoundingClientRect().top <
-            window.innerHeight / 2 + 300
+            window.innerHeight / 2 + 400
         ) {
             typeWriter();
             run = false;
