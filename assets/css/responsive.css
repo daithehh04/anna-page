@@ -548,6 +548,9 @@
     }
 
     /* Introduce */
+    .introduce {
+        overflow: unset;
+    }
     .introduce-top .imgs {
         margin-top: -104px;
         gap: 24px;
