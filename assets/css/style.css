@@ -168,7 +168,7 @@ section {
 /* Research */
 .research {
     margin-top: 112px;
-    padding-top: 84px;
+    padding-top: 100px;
     height: 100vh;
     width: auto;
     background-repeat: no-repeat;
@@ -197,7 +197,7 @@ section {
     line-height: 1.33;
     letter-spacing: -0.03em;
     color: #ffffff;
-    margin-top: 16px;
+    margin-top: 20px;
 }
 
 /* Introduce */
@@ -545,7 +545,7 @@ section {
 .result .img-anna {
     position: absolute;
     top: -95px;
-    left: 151px;
+    left: 16%;
 }
 
 .result .result-project {
@@ -634,7 +634,7 @@ section {
     display: flex;
     gap: 150px;
     margin-top: 64px;
-    background: #81c8c2;
+    background: #03897e;
     border-radius: 30px;
     padding: 59px 74px 119px;
     color: #ffffff;
@@ -875,46 +875,15 @@ section {
         transform: translateY(0);
     }
     25% {
-        transform: translateY(-10%);
+        transform: translateY(-8%);
     }
     50% {
         transform: translateY(0);
     }
     75% {
-        transform: translateY(10%);
+        transform: translateY(8%);
     }
     100% {
         transform: translateY(0);
     }
 }
-
-/* @keyframes fadeInLeft {
-    0% {
-        opacity: 0;
-        transform: translateX(-20px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-} */
-
-/* @keyframes fadeInRight {
-    0% {
-        opacity: 0;
-        transform: translateX(20px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-} */
-
-/* .fadeInRight {
-    -webkit-animation-name: fadeInRight;
-    animation-name: fadeInRight;
-}
-.fadeInLeft {
-    -webkit-animation-name: fadeInLeft;
-    animation-name: fadeInLeft;
-} */
