@@ -161,6 +161,9 @@
     } */
 
     /* Result */
+    .result .img-phone {
+        bottom: 0;
+    }
     .result .result-project p {
         font-size: 3.6rem;
     }
@@ -364,6 +367,7 @@
     /* Customer */
     .customer {
         margin-top: 216px;
+        overflow: hidden;
     }
 
     .customer-right .data .number-1 {
@@ -387,9 +391,6 @@
     }
 
     /* Result */
-    .result {
-        height: 100vh;
-    }
     .result .img-anna {
         left: unset;
         right: 50px;
@@ -404,7 +405,12 @@
     }
     .result .img-phone {
         bottom: 50px;
-        width: 100%;
+        width: 90%;
+        position: static;
+        margin-top: 24px;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: -24px;
     }
     /* Colors */
     .colors .color-wrapper {
@@ -688,9 +694,14 @@
         margin-left: 0;
     }
 
+    .result .img-phone {
+        margin-left: 10px;
+    }
+
     /* Result */
     .result {
         margin-top: 141px;
+        height: unset;
     }
     .result .result-project h4 {
         font-size: 1.4rem;

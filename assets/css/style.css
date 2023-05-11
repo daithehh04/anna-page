@@ -536,8 +536,9 @@ section {
     background-image: url(../img/bg-result.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 535px;
+    height: auto;
     width: auto;
+    min-height: 63vh;
     position: relative;
     overflow: unset;
 }
