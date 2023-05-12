@@ -382,7 +382,7 @@ section {
 
 .customer-right .data .number-1 span {
     position: absolute;
-    top: -16px;
+    top: -20px;
     left: -5px;
 }
 .customer-right .data .number-1 span:nth-child(2) {
@@ -532,7 +532,7 @@ section {
 
 /* Result */
 .result {
-    margin-top: 241px;
+    margin-top: 264px;
     background-image: url(../img/bg-result.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -592,6 +592,7 @@ section {
 }
 
 .colors .color-list {
+    padding-left: 0;
     margin-top: 40px;
     display: flex;
     align-items: center;
@@ -631,13 +632,14 @@ section {
 }
 
 .colors .color-wrapper {
-    height: 510px;
+    height: auto;
+    min-height: 53vh;
     display: flex;
     gap: 150px;
     margin-top: 64px;
     background: #03897e;
     border-radius: 30px;
-    padding: 59px 74px 119px;
+    padding: 59px 74px 97px 119px;
     color: #ffffff;
 }
 
@@ -647,7 +649,7 @@ section {
 }
 
 .color-left span:first-child {
-    width: 371px;
+    line-height: 1;
     font-weight: 700;
     font-size: 26.7rem;
 }
@@ -685,10 +687,6 @@ section {
     display: flex;
     flex-direction: column;
     gap: 24px;
-}
-
-.color-right .letters p {
-    letter-spacing: 8px;
 }
 
 .color-right .letters p:nth-child(1) {

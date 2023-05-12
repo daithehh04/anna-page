@@ -173,8 +173,9 @@
 
     /* Colors */
     .colors .color-wrapper {
+        flex-direction: column-reverse;
         padding: 30px 37px 60px;
-        gap: 60px;
+        gap: 40px;
     }
     .color-right .letters {
         margin-top: 24px;
