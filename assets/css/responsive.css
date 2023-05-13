@@ -154,8 +154,33 @@
     }
 
     .customer-right .data .number-2 {
-        right: 30px;
+        right: 8px;
         text-align: right;
+    }
+
+    .customer-right .data .number-1 span {
+        font-size: 2.4rem;
+        font-weight: 500;
+        position: absolute;
+        top: -26px;
+        left: -10px;
+    }
+    .customer-right .data .number-1 span:nth-child(2) {
+        margin-left: 34px;
+    }
+    .customer-right .data .number-2 span:nth-child(2) {
+        margin-right: -23px;
+    }
+
+    .customer-right .data .number-2 span {
+        font-size: 2.4rem;
+        font-weight: 500;
+        position: absolute;
+        right: -38px;
+        bottom: -6px;
+    }
+    .customer-right .data .number-1 {
+        left: -40px;
     }
     /* Branch */
     .branch .branch-top {
@@ -378,6 +403,28 @@
         left: -42px;
     }
 
+    .customer-right .data .number-1 span {
+        font-size: 1.6rem;
+        font-weight: 500;
+        position: absolute;
+        top: -20px;
+        left: -8px;
+    }
+    .customer-right .data .number-1 span:nth-child(2) {
+        margin-left: 23px;
+    }
+    .customer-right .data .number-2 span:nth-child(2) {
+        margin-right: -16px;
+    }
+
+    .customer-right .data .number-2 span {
+        font-size: 1.6rem;
+        font-weight: 500;
+        position: absolute;
+        right: -29px;
+        bottom: -1px;
+    }
+
     /* Branch */
     .branch {
         padding-bottom: 90px;
@@ -578,6 +625,7 @@
     /* Introduce */
     .introduce {
         padding-bottom: 120px;
+        overflow: hidden;
     }
     .introduce-top .imgs {
         margin-top: -104px;
@@ -628,11 +676,12 @@
         width: 50%;
     }
     .customer-right .data .number-1 {
-        left: -30px;
+        left: -22px;
     }
     .customer-right .data {
-        width: 82%;
+        width: 80%;
         text-align: unset;
+        margin-left: 32px;
     }
     .customer-right .data img {
         width: 68%;
@@ -643,6 +692,9 @@
 
     .customer-left .text:nth-child(1) {
         border-radius: 16px 16px 0 0;
+    }
+    .customer-right .data .number-2 span {
+        right: -24px;
     }
 
     .customer-left .text:nth-child(2) {

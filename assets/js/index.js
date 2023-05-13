@@ -99,39 +99,3 @@ function counterUp() {
     }
 }
 window.addEventListener("scroll", counterUp);
-
-// Letter-by-letter text appearance animation
-
-const text = $("[data-text]").text();
-
-var length = text.length;
-var timeOut;
-var character = 0;
-
-function typeWriter() {
-    timeOut = setTimeout(function () {
-        character++;
-        var type = text.substring(0, character);
-        $("[data-text]").text(type);
-        typeWriter();
-
-        if (character == length) {
-            clearTimeout(timeOut);
-        }
-    }, 350);
-}
-
-let run = true;
-const textElement = document.querySelector("[data-text]");
-function letterRun() {
-    if (run) {
-        if (
-            textElement.getBoundingClientRect().top <
-            window.innerHeight / 2 + 400
-        ) {
-            typeWriter();
-            run = false;
-        }
-    }
-}
-window.addEventListener("scroll", letterRun);
