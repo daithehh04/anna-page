@@ -82,6 +82,11 @@
     .result .img-phone {
         bottom: 36px;
     }
+
+    /* Research */
+    .research p {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -274,6 +279,8 @@
         z-index: 2;
         top: 0;
     }
+    /* Research */
+
     .research {
         background: linear-gradient(
                 164.55deg,
@@ -456,6 +463,9 @@
     }
 
     /* Result */
+    .result {
+        padding-bottom: 64px;
+    }
     .result .img-anna {
         left: unset;
         right: 50px;
@@ -475,7 +485,7 @@
         margin-top: 24px;
         margin-bottom: 30px;
         margin-left: auto;
-        margin-right: -24px;
+        margin-right: -7%;
     }
     /* Colors */
     .colors .color-wrapper {
@@ -557,6 +567,7 @@
         padding-top: 72px;
     }
     .content {
+        width: 100%;
         max-width: calc(100% - 20px);
     }
     /* Header */
@@ -756,13 +767,14 @@
     }
 
     .result .img-phone {
-        margin-left: 10px;
+        margin-right: -10px;
     }
 
     /* Result */
     .result {
         margin-top: 141px;
         height: unset;
+        padding-bottom: 64px;
     }
     .result .result-project h4 {
         font-size: 1.4rem;
