@@ -775,6 +775,7 @@
         margin-top: 141px;
         height: unset;
         padding-bottom: 64px;
+        min-height: unset;
     }
     .result .result-project h4 {
         font-size: 1.4rem;
