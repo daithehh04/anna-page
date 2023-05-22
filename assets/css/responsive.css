@@ -108,13 +108,14 @@
     .feature-left .feature-2 {
         width: 220px;
         height: 220px;
+        top: 200px;
     }
     .feature-left .feature-3 {
         width: 180px;
         height: 180px;
     }
     .feature-right img {
-        height: 500px;
+        height: auto;
         object-fit: cover;
     }
     .feature-right .problem {
