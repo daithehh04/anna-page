@@ -99,3 +99,5 @@ function counterUp() {
     }
 }
 window.addEventListener("scroll", counterUp);
+
+document.querySelector("body").classList.remove("dark");

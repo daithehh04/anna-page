@@ -256,6 +256,9 @@
         margin-left: -24%;
     }
 
+    .optimize .mobile-3 .circle {
+        left: -28%;
+    }
     /* Pages */
     .pages h4 {
         font-size: 3.6rem;
@@ -270,6 +273,17 @@
     .branch-bottom {
         z-index: 2;
         top: 0;
+    }
+    .research {
+        background: linear-gradient(
+                164.55deg,
+                #80c9c3 36.24%,
+                rgba(128, 201, 195, 0) 88.81%
+            ),
+            url(../img/research-mb.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
     }
 }
 
@@ -535,7 +549,6 @@
     }
     .optimize .mobile-3 .circle {
         width: 420px;
-        left: 0;
     }
 }
 
@@ -604,14 +617,6 @@
     .research {
         padding-top: 40px;
         margin-top: 64px;
-        background: linear-gradient(
-                164.55deg,
-                #80c9c3 36.24%,
-                rgba(128, 201, 195, 0) 88.81%
-            ),
-            url(../img/research-mb.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
     }
 
     .research h4 {
@@ -824,9 +829,8 @@
 
     /* Optimize */
     .optimize .mobile-3 .circle {
-        top: 250px;
+        top: 42%;
         width: 283px;
-        left: -24%;
     }
     /* Pages */
     .pages h4 {

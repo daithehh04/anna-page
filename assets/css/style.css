@@ -8,6 +8,8 @@ html {
 }
 
 body {
+    background-color: #fff;
+    color: #444444;
     font-size: 1.6rem;
     font-family: "Montserrat", sans-serif;
 }
@@ -23,7 +25,14 @@ section {
     padding-top: 112px;
     overflow: hidden;
 }
-
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+h3 {
+    letter-spacing: normal;
+    margin: 0;
+}
 /* Header */
 .header {
     position: relative;
@@ -71,6 +80,7 @@ section {
     font-size: 1.2rem;
     line-height: 1.25;
     text-transform: uppercase;
+    color: #fff;
 }
 
 .header .item p {
@@ -181,6 +191,7 @@ section {
         ),
         url(../img/research.jpg), #e2f5f1;
     background-size: cover;
+    background-position: bottom;
 }
 
 .research h4 {
@@ -215,6 +226,9 @@ section {
     margin-top: 16px;
     display: flex;
     align-items: flex-start;
+}
+.introduce .introduce-top p {
+    line-height: 1.4 !important;
 }
 
 .introduce-top .text {
